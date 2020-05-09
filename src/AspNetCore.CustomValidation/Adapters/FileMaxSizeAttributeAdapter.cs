@@ -12,7 +12,7 @@ using Microsoft.Extensions.Localization;
 
 namespace AspNetCore.CustomValidation.Adapters
 {
-    internal class FileMaxSizeAttributeAdapter : AttributeAdapterBase<FileMaxSizeAttribute>
+    public class FileMaxSizeAttributeAdapter : AttributeAdapterBase<FileMaxSizeAttribute>
     {
         public FileMaxSizeAttributeAdapter(FileMaxSizeAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

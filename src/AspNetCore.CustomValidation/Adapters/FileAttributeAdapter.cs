@@ -13,7 +13,7 @@ using Microsoft.Extensions.Localization;
 
 namespace AspNetCore.CustomValidation.Adapters
 {
-    internal class FileAttributeAdapter : AttributeAdapterBase<FileAttribute>
+    public class FileAttributeAdapter : AttributeAdapterBase<FileAttribute>
     {
         private readonly IStringLocalizer _stringLocalizer;
 

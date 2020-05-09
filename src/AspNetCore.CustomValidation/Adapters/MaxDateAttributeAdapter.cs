@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.Attributes;
 
 namespace AspNetCore.CustomValidation.Adapters
 {
-    internal class MaxDateAttributeAdapter : AttributeAdapterBase<MaxDateAttribute>
+    public class MaxDateAttributeAdapter : AttributeAdapterBase<MaxDateAttribute>
     {
         public MaxDateAttributeAdapter(MaxDateAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

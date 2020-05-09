@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class TextEditorRequiredAttributeAdapter : AttributeAdapterBase<TextEditorRequiredAttribute>
+    public class TextEditorRequiredAttributeAdapter : AttributeAdapterBase<TextEditorRequiredAttribute>
     {
         private IStringLocalizer _stringLocalizer;
 

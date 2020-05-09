@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class MinDateAttributeAdapter : AttributeAdapterBase<MinDateAttribute>
+    public class MinDateAttributeAdapter : AttributeAdapterBase<MinDateAttribute>
     {
         public MinDateAttributeAdapter(MinDateAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

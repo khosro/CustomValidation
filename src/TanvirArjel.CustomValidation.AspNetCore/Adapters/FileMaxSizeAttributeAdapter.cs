@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.AspNetCore.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class FileMaxSizeAttributeAdapter : AttributeAdapterBase<FileMaxSizeAttribute>
+    public class FileMaxSizeAttributeAdapter : AttributeAdapterBase<FileMaxSizeAttribute>
     {
         public FileMaxSizeAttributeAdapter(FileMaxSizeAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

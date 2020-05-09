@@ -13,7 +13,7 @@ using TanvirArjel.CustomValidation.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class CompareToAttributeAdapter : AttributeAdapterBase<CompareToAttribute>
+    public class CompareToAttributeAdapter : AttributeAdapterBase<CompareToAttribute>
     {
         public CompareToAttributeAdapter(CompareToAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

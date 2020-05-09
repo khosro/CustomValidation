@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.Extensions;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class RequiredIfAttributeAdapter : AttributeAdapterBase<RequiredIfAttribute>
+    public class RequiredIfAttributeAdapter : AttributeAdapterBase<RequiredIfAttribute>
     {
         public RequiredIfAttributeAdapter(RequiredIfAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class MaxAgeAttributeAdapter : AttributeAdapterBase<MaxAgeAttribute>
+    public class MaxAgeAttributeAdapter : AttributeAdapterBase<MaxAgeAttribute>
     {
         public MaxAgeAttributeAdapter(MaxAgeAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.AspNetCore.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class FileMinSizeAttributeAdapter : AttributeAdapterBase<FileMinSizeAttribute>
+    public class FileMinSizeAttributeAdapter : AttributeAdapterBase<FileMinSizeAttribute>
     {
         public FileMinSizeAttributeAdapter(FileMinSizeAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

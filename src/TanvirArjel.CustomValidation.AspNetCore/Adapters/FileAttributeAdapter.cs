@@ -13,7 +13,7 @@ using TanvirArjel.CustomValidation.AspNetCore.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class FileAttributeAdapter : AttributeAdapterBase<FileAttribute>
+    public class FileAttributeAdapter : AttributeAdapterBase<FileAttribute>
     {
         private readonly IStringLocalizer _stringLocalizer;
 

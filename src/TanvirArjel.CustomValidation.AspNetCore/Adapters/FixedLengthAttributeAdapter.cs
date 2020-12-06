@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class FixedLengthAttributeAdapter : AttributeAdapterBase<FixedLengthAttribute>
+    public class FixedLengthAttributeAdapter : AttributeAdapterBase<FixedLengthAttribute>
     {
         public FixedLengthAttributeAdapter(FixedLengthAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)

@@ -12,7 +12,7 @@ using TanvirArjel.CustomValidation.Attributes;
 
 namespace TanvirArjel.CustomValidation.AspNetCore.Adapters
 {
-    internal class MinAgeAttributeAdapter : AttributeAdapterBase<MinAgeAttribute>
+    public class MinAgeAttributeAdapter : AttributeAdapterBase<MinAgeAttribute>
     {
         public MinAgeAttributeAdapter(MinAgeAttribute attribute, IStringLocalizer stringLocalizer)
             : base(attribute, stringLocalizer)
